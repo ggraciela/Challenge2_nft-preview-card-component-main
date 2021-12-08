@@ -1,0 +1,135 @@
+/*
+FONT STYLE
+ font-family: 'Outfit', sans-serif; 
+ 
+ COLOR PALETTE
+ 
+-  Soft blue: hsl(215, 51%, 70%)
+- Cyan: hsl(178, 100%, 50%)
+
+### Neutral
+
+- Very dark blue (main BG): hsl(217, 54%, 11%)
+- Very dark blue (card BG): hsl(216, 50%, 16%)
+- Very dark blue (line): hsl(215, 32%, 27%)
+- White: hsl(0, 0%, 100%)
+*/
+
+
+html {
+    background: hsl(217, 54%, 11%);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+}
+
+
+body {
+    background: hsl(216, 50%, 16%);
+    width: 275px;
+    margin: auto;
+    font-family: 'Outfit', sans-serif; 
+    font-weight: 300;
+    color: hsl(215, 51%, 70%);
+    margin: auto;
+    padding: 20px;
+}
+
+
+
+.cube {
+    width: 275px;
+    border-radius: 10px;
+    position: relative;
+}
+
+.container {
+
+}
+
+.eye {
+    position: absolute ;
+
+    opacity: ;
+}
+.cube:hover {
+    cursor: pointer;
+    
+}
+
+.header{
+    color: white;
+    font-weight: 600;
+}
+
+.header:hover {
+    cursor: pointer;
+    color: cyan;
+}
+
+.sentence {
+    padding-bottom: 20px;
+}
+
+
+
+.iconrow {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+}
+
+.cyan {
+    font-weight: 400;
+    color: hsl(178, 100%, 50%);
+    float: right;
+    padding-left: 5px;
+}
+
+.clock {
+    padding-top: 2px;
+}
+
+.days {
+    font-weight: 400;
+    float:right;
+    padding-left: 7px;
+}
+
+
+hr {
+    width: 275px;
+    border: 1px solid hsl(215, 32%, 27%);
+
+}
+
+
+.avatarrow {
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+
+
+.avatar {
+    width: 30px;
+    border: 1px solid white;
+    border-radius: 20px;
+    float: left;
+}
+
+.lastrow {
+    padding-top: 6px;
+}
+
+.creation {
+    padding-left: 15px;
+}
+
+.name {
+    color: white;
+}
+
+.name:hover {
+    cursor: pointer;
+    color: cyan;
+}

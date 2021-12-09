@@ -33,29 +33,53 @@ body {
     color: hsl(215, 51%, 70%);
     margin: auto;
     padding: 20px;
+    border-radius: 10px;
+
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 275px;
+    grid-template-areas: 
+    "c"
+    "s";
 }
 
+
+.container {
+    grid-area: c;
+}
 
 
 .cube {
     width: 275px;
     border-radius: 10px;
-    position: relative;
+    position: absolute;
 }
 
-.container {
-
-}
-
-.eye {
-    position: absolute ;
-
-    opacity: ;
-}
 .cube:hover {
     cursor: pointer;
-    
 }
+
+
+.eye {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    opacity: 0;
+    padding: 113.5px;
+    border-radius: 10px;
+}
+
+.eye:hover {
+    cursor: pointer;
+    opacity: 1;
+    background-color: rgb(0, 255, 255, 0.5);
+}
+
+.secondhalf {
+    grid-area: s;
+   
+}
+
 
 .header{
     color: white;

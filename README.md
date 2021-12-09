@@ -3,8 +3,12 @@
 
 
 Time:
+<br />
 HTML base: ~16 mins
+<br />
 HTML + CSS: ~2h 30mins
+<br />
+Over the span of 2 days
 
 
 Screenshot of final result:
